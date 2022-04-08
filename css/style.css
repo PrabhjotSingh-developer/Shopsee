@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+/* SOME COMMON CLASSES  */
+ 
+.flex{
+    display: flex;
+}
+
+/* SOME END COMMON CLASSES  */
+
+
+/* NAVBAR START HERE  */
+header{
+    width: 100%;
+
+    
+}
+nav{
+
+ width: 100%;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+}
+.main-nav{
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+   z-index: 5;
+  opacity: 1;
+  background-color: white;
+    position: fixed;
+  
+}
+.logo{
+    align-items: center;
+}
+.main-nav .logo h2{
+    font-size: 3rem;
+    color: black;
+    font-weight: 300;
+
+
+}
+.main-nav #us{
+    display: flex;
+}
+.main-nav ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.main-nav ul li a{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: black;
+    
+}
+.three-bar{
+    font-size: 2.8rem;
+    border: 2px solid grey;
+    padding:0.6rem 0.9rem;
+    font-weight: 800;
+    cursor: pointer;
+    display: none;
+
+}
+.shopBag{
+    display: none;
+    font-size: 1.4rem;
+    color: black;
+    text-decoration: none;
+}
+
+
+/* NAVBAR END START HERE  */
+
+/* SECTION 1 START HERE  */
+  .card-imgtxt{
+      width: 100%;
+
+  }
+  .card-imgtxt img{
+      width: 100%;
+      position: relative;
+      opacity: 0.5;
+  }
+  .card-imgtxt .img-over-text{
+      position: absolute;
+       width: 40%;
+      top: 25%;  
+      left: 5%;
+     }  
+  .img-over-text h1{
+      font-size: 5rem;
+      margin: 2rem auto;
+      font-weight: 250;
+  }
+  .img-over-text p{
+      font-size: 1.5rem;
+      margin-bottom: 2rem;
+  }
+  .btn{
+      background-color: rgba(0,0,0,0.8);
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 600;
+
+      padding: 1.5rem 3rem;
+  }
+
+/* SECTION 1 END HERE  */
+/* NEEDS DIV START HERE  */
+ .needs-cloth{
+     width: 100%;
+     margin: 5rem auto;
+
+ }
+ .needs-cloth .heading-para{
+     width: 40%;
+     margin: auto;
+     margin-bottom: 2rem;
+ }
+.needs-cloth .heading-para h1{
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.needs-cloth .heading-para p{
+    font-size: 1.6rem;
+    text-align: center;
+
+}
+.needs-cloth .needs-imgs{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.needs-cloth .need-item1{
+    width: 30%;
+    
+}
+.needs-cloth .need-item1 img{
+    width: 90%;
+
+}
+.needs-cloth .need-item1 button{
+    display: block;
+    margin:2rem auto;
+   
+    
+}
+.btn:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+/*NEEDS DIV END HERE */
+
+/* OUR STORY DIV START HERE  */
+ .our-story{
+     width: 100%;
+     display: flex;
+    justify-content: space-evenly;
+    margin: 12rem auto;
+ }
+ .story-item1{
+     width: 33%;
+
+ }
+ .story-item1 p{
+      font-size: 1.5rem;
+      font-weight: 50;
+      margin: 2rem auto;
+
+ }
+ .story-item1 h1{
+     font-size: 5rem;
+     font-weight: 500;
+ }
+ .story-item1 .btn3{
+     margin-top: 3rem;
+ }
+ .story-item2{
+     width:40% ;
+ }
+ .story-item2 img{
+    width:100% ;
+}
+
+ 
+
+
+
+/* OUR STORY END START HERE  */
+/*INSPIRE GALLERY START HERE*/
+.inspire-gallery{
+    width: 100%;
+}
+.inspire-gallery .heading h1{
+    font-size: 4rem;
+    font-weight: 300;
+    text-align: center;
+
+}
+.inspire-gallery .gallery{
+    display: flex;
+    justify-content: space-evenly;
+    margin:4rem auto;
+}
+.inspire-gallery img{
+    width: 20%;
+}
+.inspire-gallery button {
+    margin: auto;
+    display: block;
+}
+/*INSPIRE GALLERY END HERE*/
+/*FOOTER START HERE */
+footer{
+    width: 100%;
+    background-color: rgba(0,0,0,0.6);
+    padding: 2rem;
+    margin-top: 5rem;
+}
+footer .footer-items{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+footer .footer-items .ft-item{
+    width: 20%;
+}
+.ft-item h2{
+    color: white;
+    font-size: 2rem;
+    margin: 2rem auto;
+    font-weight: 200;
+}
+.ft-item p{
+    font-size: 1.5rem;
+    color: white;
+}
+.ft-item address{
+    font-size: 1.5rem;
+    color: white;
+}
+.ft-item-form form input{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  outline: none;
+  width: 80%;
+}
+.ft-item-form form textarea{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.6rem;
+    outline: none;
+    width: 80%;
+}
+.form-btn{
+    padding: 1rem!important;
+    display: block;
+
+}
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3rem auto 0 auto;
+}
+.icons-item{
+    width: 20%;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+
+}
+.icons-item  a{
+    text-decoration: none;
+    color: white;
+}
+.icons-item i{
+    font-size: 2.5rem;
+}
+.developed p{
+    font-size: 1.4rem;
+    color: white;
+}
+.copy{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+
+}
+
+
+/*FOOTER END HERE*/
+/*Media querries start here */
+
+ @media screen and (min-width:700px){
+  .main-nav ul{
+      display: flex!important;
+  }
+} 
+@media screen and (max-width:992px){
+    .card-imgtxt .img-over-text{
+        width: 50%;
+        top: 10%;
+    }
+}
+@media screen and (max-width:910px){
+    .main-nav{
+        justify-content:space-between;
+    }
+    .card-imgtxt .img-over-text{
+        width: 80%;
+        top: 10%;
+    }
+    .needs-cloth .heading-para{
+        width: 80%;
+        margin-top: 10rem;
+    }
+  
+    .needs-cloth .needs-imgs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .needs-cloth .need-item1{
+        width: 100%;
+        margin-top: 5rem;
+        
+    }
+    .needs-cloth .need-item1 img{
+        width: 80%;
+        margin: auto;
+        display: block;
+    }
+    .our-story{
+       flex-direction: column;
+       margin: 12rem auto;
+       justify-content: center;
+       align-items: center;
+    }
+    .story-item1{
+        width: 80%;
+        margin-bottom: 5rem;
+   
+    }
+
+    .story-item2{
+        width:80% ;
+    }
+    .story-item2 img{
+       width:100% ;
+   }
+
+   .inspire-gallery .gallery{
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    margin:4rem auto;
+   }
+   .inspire-gallery .heading{
+    margin-bottom: 0;
+    }
+   .inspire-gallery img:nth-child(1){
+       margin-top: 2rem;
+    }
+     .inspire-gallery img{
+         width: 80%;
+      margin-top: 8rem;
+     }
+      .inspire-gallery button {
+          margin: auto;
+          display: block;
+      }
+      footer .footer-items{
+        flex-direction: column;
+      }
+      footer .footer-items .ft-item{
+         width: 80%;
+         margin: auto;
+        margin-top: 3rem;
+     }
+      .ft-item form{
+           display: block;
+       }
+     .social-icons{
+            display: none;
+         }
+   
+}
+@media screen and (max-width:850px) {
+    
+   .main-nav{
+       width: 100%;
+   }
+}
+
+@media screen and (max-width:700px){
+    .main-nav{
+        width: 100%;
+        height: 100%;
+        position: relative;
+       
+    }
+    .main-nav #us{
+       flex-direction: column;
+       display: none;
+        position: absolute;
+        top:93%;
+        width: 100%;
+        z-index: -5;
+        left: 0%;
+        
+        background-color: white;
+        margin: auto;
+    }
+    .main-nav ul li{
+        margin-bottom: 1rem;
+    }
+    .shopBag{
+        display: block;
+    }
+    .three-bar{
+        display: block;
+        margin-right: 2rem;
+    }
+} 
+
+@media screen and (max-width:552px){
+  *{
+      font-size: 55%;
+  }
+    .card-imgtxt img{
+        height: 320px;
+    }
+    .card-imgtxt .img-over-text{
+       width: 90%;
+        top: 17%;  
+        left: 5%;
+       }  
+       .needs-cloth .heading-para{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .main-nav .logo h2{
+        font-size: 2.5rem;
+    
+    }
+    .shopBag{
+        
+        font-size: 1rem;
+     
+    }
+
+}
+
+@media screen and (max-width:350px){
+    .card-imgtxt img{
+        height: 320px;
+    }
+}
+/*Media querries start here */
