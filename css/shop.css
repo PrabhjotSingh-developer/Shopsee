@@ -423,9 +423,9 @@ nav{
         justify-content: center;
     }
     .insight-imgs img{
-        width: 80%;
+        width: 90%;
         margin: 3rem!important;
-        height: 450px!important;
+        height: 100%!important;
     }
  
 }   
