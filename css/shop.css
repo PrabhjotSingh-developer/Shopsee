@@ -175,6 +175,7 @@ nav{
 /* about page start here  */
 .quality{
     margin-top: 15rem;
+    width: 100%;
 }
 .quality .heading-shop{
     width: 50%;
@@ -297,7 +298,16 @@ nav{
     width: 40%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
      margin-top: 5rem;
+
+     
+}
+.login-item2 form{
+    display: flex;
+     flex-direction: column;
+   justify-content: center;
+    align-items: center;
 }
 .login-item2 form input{
     width: 80%;
@@ -305,14 +315,15 @@ nav{
     margin-bottom: 3rem;
     margin-top: 0.9rem;
     padding: 0.7rem 1rem;
-    display: block;
+   
+
     outline: none;
     
 } 
 .login-item2 form label{
     font-size: 1.2rem;
-    
-    
+   align-self: flex-start;
+   margin-left: 5rem;
 }
 .login-item2 form textarea{
     width: 80%;
@@ -330,7 +341,7 @@ nav{
         flex-direction: column;
         width: 95%;
         align-items: center;
-        margin-top: 5rem;
+        margin-top: 15rem;
     }
     .login-item1{
         width: 90%;
@@ -343,6 +354,10 @@ nav{
     .login-item1 img{
         width: 100%;
         height: 500px;
+    }
+    .login-item2 form .sum-btn{
+        display: block;
+        margin: auto;
     }
     /*shop media queries*/
     .shop-order{
@@ -372,10 +387,10 @@ nav{
     }
     .quality-imgs img{
         width: 45%;
-        margin-top:3rem ;
+        margin-top:5rem ;
     }
     .quality .about-quality{
-        width: 90%; 
+        width: 95%; 
         margin:5rem auto;
     }
 }
@@ -410,7 +425,7 @@ nav{
     .insight-imgs img{
         width: 80%;
         margin: 3rem!important;
-        height: 550px!important;
+        height: 450px!important;
     }
  
 }   

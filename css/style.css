@@ -290,7 +290,7 @@ footer .footer-items .ft-item{
     font-size: 2.5rem;
 }
 .developed p{
-    font-size: 1.4rem;
+    font-size: 1.4rem!important;
     color: white;
 }
 .copy{
